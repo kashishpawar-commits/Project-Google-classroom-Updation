@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+coverage/
+
+# OS & Environment
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Credentials & Service Accounts
+serviceAccountKey.json
+firebase-adminsdk*.json
+*.pem
+
+# Caches
+.eslintcache
+.parcel-cache

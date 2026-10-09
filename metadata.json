@@ -1,0 +1,8 @@
+{
+  "name": "Remix google classroom",
+  "description": "ClassFlow - Modern Google Classroom-inspired educational platform with assignment workflows, real-time local persistence, and grade tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
