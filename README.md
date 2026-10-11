@@ -93,8 +93,3 @@ You can execute the automated SQL test suite in `supabase/verification_tests.sql
 
 ---
 
-## 📌 Known Limitations
-
-1. **Email Service Dependent on Supabase Settings**: Since "Confirm email" must be turned off for immediate session creation, welcome emails and password resets rely on Supabase's configured SMTP settings.
-2. **Offline Mode**: Offline cache is not active; an active internet connection to Supabase is required for real-time tracking and database queries.
-3. **External Cloud Storage Size Limits**: Supabase free-tier storage defaults to 50MB per uploaded file.
